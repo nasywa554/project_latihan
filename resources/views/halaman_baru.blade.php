@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')
+@section('konten')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
@@ -37,112 +37,60 @@
                             </tr>
                         </tbody>
                     </table>
-                    <!--div class="row"> 
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="https://magdalene.co/storage/media/Doraemon3%20copy.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text"><center>Doraemon</center></p>
-                                    </div>        
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="https://magdalene.co/storage/media/Doraemon3%20copy.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text"><center>Doraemon</center></p>
-                                    </div>        
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="https://magdalene.co/storage/media/Doraemon3%20copy.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text"><center>Doraemon</center></p>
-                                    </div>        
-                                </div>
-                            </div>    
-                    </div>
-                    <br-->
+                   
                     <div class="row"> 
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon&Nobita.jpg')}}" alt="Card image cap">
-                                    <div class="card-body" style="background-color:#87C4F5">
-                                        <p class="card-text"><center><b><h3>Doraemon & Nobita</h3></b></center></p>
-                                    </div>        
-                                </div>
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon&Nobita.jpg')}}" alt="Card image cap">
+                                <div class="card-body" style="background-color:#87C4F5">
+                                    <p class="card-text"><center><b><h3>Doraemon & Nobita</h3></b></center></p>
+                                </div>        
                             </div>
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" style="height: 150px" src="{{asset('image/Nobita.png')}}" alt="Card image cap">
-                                    <div class="card-body" style="background-color:#87C4F5">
-                                        <p class="card-text"><center><b><h3>Nobita</h3></b></center></p>
-                                    </div>        
-                                </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" style="height: 150px" src="{{asset('image/Nobita.png')}}" alt="Card image cap">
+                                <div class="card-body" style="background-color:#87C4F5">
+                                    <p class="card-text"><center><b><h3>Nobita</h3></b></center></p>
+                                </div>        
                             </div>
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon1.jpg')}}" alt="Card image cap">
-                                    <div class="card-body" style="background-color:#87C4F5">
-                                        <p class="card-text"><center><b><h3>Doraemon</h3></b></center></p>
-                                    </div>        
-                                </div>
-                            </div>    
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon1.jpg')}}" alt="Card image cap">
+                                <div class="card-body" style="background-color:#87C4F5">
+                                    <p class="card-text"><center><b><h3>Doraemon</h3></b></center></p>
+                                </div>        
+                            </div>
+                        </div>    
                     </div>
                     <br>
-                    <!--div class="row">
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="https://magdalene.co/storage/media/Doraemon3%20copy.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text"><center>Doraemon</center></p>
-                                    </div>        
-                                </div>
-                            </div-->
-                            <!--div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="https://magdalene.co/storage/media/Doraemon3%20copy.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text"><center>Doraemon</center></p>
-                                    </div>        
-                                </div>
-                            </div-->
-                            <!--div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="https://magdalene.co/storage/media/Doraemon3%20copy.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text"><center>Doraemon</center></p>
-                                    </div>        
-                                </div>
-                            </div>  
-                    </div>
-                    <br-->  
+                   
                     <div class="row">
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon&Nobita.jpg')}}" alt="Card image cap">
-                                    <div class="card-body" style="background-color:#87C4F5">
-                                        <p class="card-text"><center><b><h3>Doraemon & Nobita</h3></b></center></p>
-                                    </div>        
-                                </div>
-                            </div>                        
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" style="height: 150px" src="{{asset('image/Nobita.png')}}" alt="Card image cap">
-                                    <div class="card-body" style="background-color:#87C4F5">
-                                        <p class="card-text"><center><b><h3>Nobita</h3></b></center></p>
-                                    </div>        
-                                </div>
-                            </div>                       
-                            <div class="col-sm-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon1.jpg')}}" alt="Card image cap">
-                                    <div class="card-body" style="background-color:#87C4F5">
-                                        <p class="card-text"><center><b><h3>Doraemon</h3></b></center></p>
-                                    </div>        
-                                </div>
-                            </div>    
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon&Nobita.jpg')}}" alt="Card image cap">
+                                <div class="card-body" style="background-color:#87C4F5">
+                                    <p class="card-text"><center><b><h3>Doraemon & Nobita</h3></b></center></p>
+                                </div>        
+                            </div>
+                        </div>                        
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" style="height: 150px" src="{{asset('image/Nobita.png')}}" alt="Card image cap">
+                                <div class="card-body" style="background-color:#87C4F5">
+                                    <p class="card-text"><center><b><h3>Nobita</h3></b></center></p>
+                                </div>        
+                            </div>
+                        </div>                       
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" style="height: 150px" src="{{asset('image/Doraemon1.jpg')}}" alt="Card image cap">
+                                <div class="card-body" style="background-color:#87C4F5">
+                                    <p class="card-text"><center><b><h3>Doraemon</h3></b></center></p>
+                                </div>        
+                            </div>
+                        </div>    
                     </div>
                     <br> 
                        
