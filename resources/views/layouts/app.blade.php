@@ -39,6 +39,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/halaman_baru">Halaman baru</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/siswa">Siswa</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

@@ -24,3 +24,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/halaman_baru', function () {
     return view('halaman_baru');
 });
+
+Route::get('siswa', 'SiswaController@index');
