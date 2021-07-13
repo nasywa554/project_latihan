@@ -26,3 +26,8 @@ Route::get('/halaman_baru', function () {
 });
 
 Route::get('siswa', 'SiswaController@index');
+Route::get('/siswa/tambah','SiswaController@tambah');
+Route::post('/siswa/update','SiswaController@update');
+Route::get('/siswa/edit/{id}','SiswaController@edit');
+Route::get('/siswa/hapus/{id}','SiswaController@hapus');
+Route::post('/siswa/store','SiswaController@store');
