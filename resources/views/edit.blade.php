@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <a href="/siswa"> Kembali</a>
+                <a href="/siswa" class="btn btn-secondary"> Kembali</a>
                 <br />
                 <br />
                 @foreach($siswa as $siswa)

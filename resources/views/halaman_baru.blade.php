@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">halaman baru</div>
-                <div class="card-body">
+                <div class="card-body" style="background-color: #A3F7F6">
                     <table class="table table-dark">
                         <thead>
                             <tr>
@@ -92,8 +92,7 @@
                             </div>
                         </div>    
                     </div>
-                    <br> 
-                       
+                    <br>      
                 </div>
             </div>
         </div>
